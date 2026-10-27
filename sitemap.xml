@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<url>
+<loc>https://ariannapopescu.github.io/olme-site/</loc>
+<xhtml:link rel="alternate" hreflang="it" href="https://ariannapopescu.github.io/olme-site/"/>
+<xhtml:link rel="alternate" hreflang="en" href="https://ariannapopescu.github.io/olme-site/en/"/>
+</url>
+<url>
+<loc>https://ariannapopescu.github.io/olme-site/en/</loc>
+<xhtml:link rel="alternate" hreflang="it" href="https://ariannapopescu.github.io/olme-site/"/>
+<xhtml:link rel="alternate" hreflang="en" href="https://ariannapopescu.github.io/olme-site/en/"/>
+</url>
+<url>
+<loc>https://ariannapopescu.github.io/olme-site/privacy/</loc>
+<xhtml:link rel="alternate" hreflang="it" href="https://ariannapopescu.github.io/olme-site/privacy/"/>
+<xhtml:link rel="alternate" hreflang="en" href="https://ariannapopescu.github.io/olme-site/en/privacy/"/>
+</url>
+<url>
+<loc>https://ariannapopescu.github.io/olme-site/en/privacy/</loc>
+<xhtml:link rel="alternate" hreflang="it" href="https://ariannapopescu.github.io/olme-site/privacy/"/>
+<xhtml:link rel="alternate" hreflang="en" href="https://ariannapopescu.github.io/olme-site/en/privacy/"/>
+</url>
+<url>
+<loc>https://ariannapopescu.github.io/olme-site/termini/</loc>
+<xhtml:link rel="alternate" hreflang="it" href="https://ariannapopescu.github.io/olme-site/termini/"/>
+<xhtml:link rel="alternate" hreflang="en" href="https://ariannapopescu.github.io/olme-site/en/terms/"/>
+</url>
+<url>
+<loc>https://ariannapopescu.github.io/olme-site/en/terms/</loc>
+<xhtml:link rel="alternate" hreflang="it" href="https://ariannapopescu.github.io/olme-site/termini/"/>
+<xhtml:link rel="alternate" hreflang="en" href="https://ariannapopescu.github.io/olme-site/en/terms/"/>
+</url>
+</urlset>
