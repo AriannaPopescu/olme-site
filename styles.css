@@ -124,13 +124,15 @@ img {
 .skip {
   position: absolute;
   left: 1rem;
-  top: -3rem;
+  top: 0;
+  transform: translateY(-110%);
   background: var(--surface);
   padding: 0.75rem 1rem;
   z-index: 10;
 }
 .skip:focus {
   top: 1rem;
+  transform: none;
 }
 
 /* ---------- Shared pieces ---------- */
@@ -211,6 +213,22 @@ img {
 
 section {
   padding: clamp(3rem, 2rem + 4vw, 5.5rem) 0;
+}
+
+/* ---------- Cookie notice (static, nothing to accept: ADR-0096) ---------- */
+
+.cookie-notice {
+  background: var(--accent-soft);
+  color: var(--text);
+  font-size: 0.875rem;
+}
+.cookie-notice p {
+  margin: 0;
+  padding: 0.6rem 0;
+}
+.cookie-notice a {
+  color: var(--text);
+  text-decoration: underline;
 }
 
 /* ---------- Top bar ---------- */
