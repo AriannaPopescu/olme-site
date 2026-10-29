@@ -330,13 +330,13 @@ section {
 .hero__phone {
   grid-area: phone;
   position: relative;
-  z-index: 2;
   display: flex;
   justify-content: center;
   padding: 8rem 0 2rem;
 }
 .blob--phone {
   inset: 0 -12% 8% -6%;
+  z-index: 0;
 }
 .phone {
   position: relative;
@@ -345,6 +345,7 @@ section {
   border-radius: 46px;
   background: var(--text);
   box-shadow: 0 30px 60px -20px color-mix(in srgb, var(--text) 45%, transparent);
+  z-index: 2;
 }
 .phone__screen {
   overflow: hidden;
@@ -359,19 +360,19 @@ section {
 
 .features__grid {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
 }
 .feature {
-  padding: 1.5rem 1.1rem;
+  padding: 1.75rem 1.5rem;
   border-radius: 24px;
   background: var(--surface);
   border: 1px solid var(--border-subtle);
   box-shadow: 0 10px 30px -18px color-mix(in srgb, var(--text) 30%, transparent);
 }
 .feature h3 {
-  margin: 1.1rem 0 0.4rem;
-  font-size: 1.15rem;
+  margin: 1.25rem 0 0.4rem;
+  font-size: 1.3rem;
   overflow-wrap: anywhere;
 }
 .feature p,
@@ -404,11 +405,16 @@ section {
 .routine__stack .mini-card + .mini-card {
   margin-left: -1.25rem;
 }
+.mini-card--weight {
+  transform: rotate(-5deg);
+}
 .mini-card--activity {
   z-index: 1;
+  transform: rotate(-2deg);
 }
 .mini-card--agenda {
   z-index: 2;
+  transform: rotate(1.5deg);
 }
 .mini-card {
   padding: 1.25rem;
@@ -671,12 +677,6 @@ section {
 
 /* ---------- Narrow screens ---------- */
 
-@media (max-width: 1100px) {
-  .features__grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
 @media (max-width: 900px) {
   .hero__dog {
     margin: 0 -1rem;
@@ -739,5 +739,8 @@ section {
   }
   .routine__stack .mini-card + .mini-card {
     margin-left: 0;
+  }
+  .routine__stack .mini-card {
+    transform: none;
   }
 }
