@@ -565,6 +565,9 @@ section {
 
 /* ---------- FAQ ---------- */
 
+.faq {
+  padding-top: clamp(2.5rem, 1.5rem + 3.5vw, 4.5rem);
+}
 .faq__wrap {
   max-width: 48rem;
 }
@@ -586,15 +589,9 @@ section {
 
 /* ---------- Waitlist (Italian landing only, ADR-0103) ---------- */
 
-/* Tight spacing around the form: the neighbouring sections give up most of their padding. */
+/* The form takes the usual section spacing from its neighbours, not its own on top. */
 section.waitlist {
   padding: 0;
-}
-.faq:has(+ .waitlist) {
-  padding-bottom: clamp(3rem, 2rem + 4vw, 5.25rem);
-}
-.waitlist + .closing {
-  padding-top: clamp(3rem, 2rem + 4vw, 5.25rem);
 }
 
 .waitlist__card {
