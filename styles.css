@@ -586,8 +586,15 @@ section {
 
 /* ---------- Waitlist (Italian landing only, ADR-0103) ---------- */
 
+/* Tight spacing around the form: the neighbouring sections give up most of their padding. */
 section.waitlist {
-  padding: clamp(1rem, 0.5rem + 1.5vw, 2rem) 0;
+  padding: 0;
+}
+.faq:has(+ .waitlist) {
+  padding-bottom: clamp(1.5rem, 1rem + 1.5vw, 2.5rem);
+}
+.waitlist + .closing {
+  padding-top: clamp(1.5rem, 1rem + 1.5vw, 2.5rem);
 }
 
 .waitlist__card {
