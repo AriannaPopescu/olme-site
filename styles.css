@@ -586,7 +586,6 @@ section {
 
 /* ---------- Waitlist (Italian landing only, ADR-0103) ---------- */
 
-
 .waitlist__card {
   display: grid;
   grid-template-columns: 1fr 1fr;
