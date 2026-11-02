@@ -164,6 +164,10 @@ img {
     sans-serif;
   cursor: default;
 }
+a.button {
+  text-decoration: none;
+  cursor: pointer;
+}
 .button--small {
   padding: 0.6rem 1.1rem;
   font-size: 0.875rem;
@@ -582,12 +586,16 @@ section {
 
 /* ---------- Waitlist (Italian landing only, ADR-0103) ---------- */
 
+section.waitlist {
+  padding: clamp(1rem, 0.5rem + 1.5vw, 2rem) 0;
+}
+
 .waitlist__card {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 2rem 3rem;
+  gap: 1.5rem 3rem;
   align-items: start;
-  padding: clamp(2rem, 1.5rem + 3vw, 3.5rem);
+  padding: clamp(1.5rem, 1rem + 2vw, 2.5rem);
   border-radius: 36px;
   background: var(--surface);
   border: 1px solid var(--border-subtle);
