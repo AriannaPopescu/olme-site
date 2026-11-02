@@ -591,10 +591,10 @@ section.waitlist {
   padding: 0;
 }
 .faq:has(+ .waitlist) {
-  padding-bottom: clamp(3rem, 2rem + 3vw, 4.75rem);
+  padding-bottom: clamp(3rem, 2rem + 4vw, 5.25rem);
 }
 .waitlist + .closing {
-  padding-top: clamp(3rem, 2rem + 3vw, 4.75rem);
+  padding-top: clamp(3rem, 2rem + 4vw, 5.25rem);
 }
 
 .waitlist__card {
